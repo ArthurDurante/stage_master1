@@ -1,0 +1,42 @@
+#mega
+!Title: fasta file;
+!Format DataType=Distance DataFormat=LowerLeft NTaxa=3;
+!Description
+  No. of Taxa:3
+  Analysis:Distance Estimation
+  Scope:Pairs of taxa
+  Estimate Variance:====================
+  Variance Estimation Method:Analytical method
+  No. of Bootstrap Replications:Not Applicable
+  Substitution Model:====================
+  Substitutions Type:Nucleotide
+  Model/Method:p-distance
+  Substitutions to Include:d: Transitions + Transversions
+  Rates and Patterns:====================
+  Rates among Sites:Uniform Rates
+  Gamma Parameter:Not Applicable
+  Pattern among Lineages:Same (Homogeneous)
+  Data Subset to Use:====================
+  Gaps/Missing Data Treatment:Pairwise deletion
+  Site Coverage Cutoff (%):Not Applicable
+  Has Time Limit:False
+  Maximum Execution Time:-1
+  datatype:snNucleotide
+  containsCodingNuc:False
+  MissingBaseSymbol:?
+  IdenticalBaseSymbol:.
+  GapSymbol:-
+  No. of Sites:2685
+  d:Estimate
+  S.E:Standard error
+;
+
+[1] #ENSDARG00000034534_DR
+[2] #ENSDARG00000034534_BM
+[3] #ENSDARG00000034534_BB
+
+[              1            2            3 ]
+[1]               [0.00955281 ][0.00963409 ]
+[2]   0.13081862               [0.00240107 ]
+[3]   0.13333333   0.00762195               
+

@@ -1,0 +1,50 @@
+;   MEGA-CC (Molecular Evolutionary Genetics Analysis Compute Core)
+;
+;   Suggested Citation for MEGA-CC 10:
+;
+;   Kumar S, Stecher G, Li M, Knyaz C, Tamura K
+;   MEGA X: Molecular Evolutionary Genetics Analysis across computing platforms
+;   Molecular Biology and Evolution (2018) 35:1547-1549
+;
+;   Kumar S, Stecher G, Peterson D, and Tamura K
+;   MEGA-CC: Computing Core of Molecular Evolutionary Genetics
+;   Analysis Program for Automated and Iterative Data Analysis.
+;   Bioinformatics (2012) 28:2685-2686 (Epub 2012 Aug 24)
+
+[General Info]
+
+	Data Type                               = nucleotide (non-coding)
+	No. of Taxa                             =        3
+	No. of Sites                            =      681
+	Data File                               = 'ENSDARG00000033789_NT.fasta.meg'
+	Settings File                           = './distance_estimation_pairwise_nucleotide.mao'
+	Command Line                            = /usr/lib/megax/megacc -a distance_estimation_pairwise_nucleotide.mao -d ENSDARG00000033789_NT.fasta.meg -o Result_ENSDARG00000033789_NT.fasta.meg
+
+[Analysis Settings]
+
+	Analysis                                = Distance Estimation
+	Scope                                   = Pairs of taxa
+	Variance Estimation Method              = Analytical method
+	No. of Bootstrap Replications           = Not Applicable
+	Substitutions Type                      = Nucleotide
+	Model/Method                            = p-distance
+	Substitutions to Include                = d: Transitions + Transversions
+	Rates among Sites                       = Uniform Rates
+	Gamma Parameter                         = Not Applicable
+	Pattern among Lineages                  = Same (Homogeneous)
+	Gaps/Missing Data Treatment             = Pairwise deletion
+	Site Coverage Cutoff (%)                = Not Applicable
+	Has Time Limit                          = False
+	Maximum Execution Time                  = -1
+	datatype                                = snNucleotide
+	containsCodingNuc                       = False
+	MissingBaseSymbol                       = ?
+	IdenticalBaseSymbol                     = .
+	GapSymbol                               = -
+
+[Analysis Statistics]
+
+	Start Time                              = 29/04/2022 14:43:53
+	End Time                                = 29/04/2022 14:43:53
+	Execution Time                          =    0.007 (seconds)
+	Peak Memory Used(Working Set)           = Not available

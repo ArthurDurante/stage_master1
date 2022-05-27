@@ -1,0 +1,102 @@
+# coupe l'ensdarg dans le fichier csv et la séquence 
+cut -d ',' -f 2 <BB.csv >ensdarg
+cut -d ',' -f 15 <BB.csv >seq
+
+#colle bout à bout
+paste ensdarg seq >BBtest.csv
+
+#Fait un fichier .fas à partir d'une liste d'ENSDARG
+while read line; do echo $line ; grep $line <BBtest.csv >>BB.fas ;done <listeensdarg 
+
+
+#idem pour barbus meridionalis
+cut -d ',' -f 2 <BM.csv >ensdarg2
+cut -d ',' -f 15 <BM.csv >seq2
+
+paste ensdarg2 seq2 >BMtest.csv
+
+
+while read line; do echo $line ; grep $line <BMtest.csv >>BM.fas ;done <listeensdarg 
+
+
+
+
+#fait une liste d'ENSDARG à partir du fichier .fas
+
+while read line; do cut -b 1-18  >ensadargBM;  done  <BM.fas
+#prend une liste d'ENDARG unique
+uniq <ensadargBM >ensadargBM2
+
+while read line; do echo $line; grep $line <BM.fas |sed -r 's/^ENSDARG.........../>&_BM/g'  | sed -r 's/\t/\n/g'>BM_$line; done <ensadargBM2
+
+
+while read line; do cut -b 1-18  >ensadargBB;  done  <BB.fas
+uniq <ensadargBB >ensadargBB2
+while read line; do echo $line; grep $line <BB.fas |sed -r 's/^ENSDARG.........../>&_BB/g' | sed -r 's/\t/\n/g' >BB_$line; done <ensadargBB2
+
+
+#avoir la plus grande sequence
+for i in BB_* ; do
+indiv=$(basename ${i}); while read a; do echo "$a" ; tail -1; done  <$indiv  >f_$indiv;
+done 
+
+for i in BM_* ; do
+indiv=$(basename ${i}); while read a; do echo "$a" ; tail -1; done  <$indiv  >f_$indiv;
+done 
+
+for i in DR_* ; do
+indiv=$(basename ${i}); while read a; do echo "$a" ; tail -1; done  <$indiv  >f_$indiv;
+done 
+
+
+
+# formatage du fichier transcriptome danio
+sed -z 's/\n//g' <danio3.fas >danio4.fas
+sed -r 's/ENSDARG/\n>&/g'<danio4.fas  >danio5.fas 
+sed -r 's/>................../&\n/g'<danio5.fas  >danio6.fas 
+while read line; do echo $line; grep $line <danio5.fas | sed -r 's/^>ENSDARG.........../&_DR\n/g' >DR_$line; done <listeensdarg 
+
+#fichier pour MACSE
+while read line; do cat f_DR_$line f_BM_$line f_BB_$line >$line.fasta; done <listeensdarg
+
+while read line; do java -jar macse.jar -prog alignSequences -seq $line.fasta;  done <listeensdarg 
+
+#formatage fichier mega
+for k in *.fasta ; do
+indiv=$(basename ${k}); sed -r 's/>/#/g'  <$indiv >temp; sed -r 's/!/?/g' <temp >$indiv.meg; sed -i '1i#mega' $indiv.meg ; sed -i '2i!Title fasta file;' $indiv.meg; 
+megacc -a zTest_syn-nonsynonymous.mao -d $indiv.meg  -o Result_$indiv;  done  
+
+for k in *.meg ; do
+indiv=$(basename ${k}); megacc -a *.mao -d $indiv  -o Result_$indiv;  done 
+
+
+
+
+#formatage fichier Result_$indiv.meg pour DSDN
+for k in Result_*_NT.meg;do
+ind=$(basename ${k});
+ind2=$(basename ${k} NT.meg);
+sed -n 32p <${ind} >fileA1;  sed -n 32p <${ind} >fileA2; sed -n 33p <${ind} >fileA3; cat fileA* >fileB;
+sed -n 33p <${ind} >fileA1;  sed -n 34p <${ind} >fileA2; sed -n 34p <${ind} >fileA3; cat fileA* >fileC;
+paste fileB fileC > fileD;
+sed -n 37p <${ind} >fileE; cut -b 21-32 <fileE >fileF ; sed -n 37,38p <${ind} >fileE; cut -b 35-46 <fileE >fileG;
+cat fileF fileG > fileH;
+sed -n 38,39p <${ind} >fileE; cut -b 8-17 <fileE >fileF ; sed -n 39p <${ind} >fileE; cut -b 22-31 <fileE >fileG;
+cat fileF fileG > fileI;
+paste fileD fileH fileI> table${ind2}.csv;
+done
+
+
+#formatage fichier Result_$indiv.meg pour pDistance
+for k in Result_*_NT.fasta.meg;do
+ind=$(basename ${k});
+ind2=$(basename ${k} NT.meg);
+sed -n 34p <${ind} >fileA1;  sed -n 34p <${ind} >fileA2; sed -n 35p <${ind} >fileA3; cat fileA* >fileB;
+sed -n 35p <${ind} >fileA1;  sed -n 36p <${ind} >fileA2; sed -n 36p <${ind} >fileA3; cat fileA* >fileC;
+paste fileB fileC > fileD;
+sed -n 39p <${ind} >fileE; cut -b 20-31 <fileE >fileF ; sed -n 39,40p <${ind} >fileE; cut -b 33-44 <fileE >fileG;
+cat fileF fileG > fileH;
+sed -n 40,41p <${ind} >fileE; cut -b 7-17 <fileE >fileF ; sed -n 41p <${ind} >fileE; cut -b 20-30 <fileE >fileG;
+cat fileF fileG > fileI;
+paste fileD fileH fileI> table${ind2}.csv;
+done
