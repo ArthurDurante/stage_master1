@@ -8,3 +8,8 @@ Je souhaite prendre le temps de noter que certains scripts, particulièrement le
 Le code R qui traite la dynamique générale est le script nommé " script R analyse dynamique ", celui permettant de traiter les données hybrides, est le script "hybrid analysis".
 
 Concernant le script d'analyse des hybride, il a été nécessaire d'utiliser des fichiers QSL, qui n'ont pas pu être mis dans les documents (car trop lourd ~90Mb). 
+
+Le fichier Danio Rerio traite les données récupérée à partir de KEGG. 
+Il manque aussi de nombreux fichiers, qui sont des fichiers excel, fasta ou txt, qui ont été utilisé pour l'analyse de données.
+J'espère dans tous les cas que les fichiers présents ici vous permetront de comprendre les méthodes que j'ai pu utiliser lors de mon stage.
+Si jamais vous êtes interessé par d'autres info, vous êtes libre de me contacter directement.
