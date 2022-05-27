@@ -1,0 +1,148 @@
+dre:100000992        K03967 NADH dehydrogenase (ubiquinone) 1 subunit C1 | (RefSeq) ndufc1; NADH dehydrogenase [ubiquinon 
+dre:100002384        K02265 cytochrome c oxidase subunit 5b | (RefSeq) cox5bb; cytochrome c oxidase subunit 5B1 
+dre:100003066        K03948 NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 4 | (RefSeq) ndufa4l2a; NADH dehyd 
+dre:100003139        K02154 V-type H+-transporting ATPase subunit a | (RefSeq) tcirg1a; V-type proton ATPase 116 kDa subu 
+dre:100004566        K03662 V-type H+-transporting ATPase S1 subunit | (RefSeq) atp6ap1a; ATPase H+ transporting accessor 
+dre:100005158        K02258 cytochrome c oxidase assembly protein subunit 11 | (RefSeq) cox11; cytochrome c oxidase assem 
+dre:100038785        K02133 F-type H+-transporting ATPase subunit beta [EC:7.1.2.2] | (RefSeq) zgc:163069; F0F1 ATP synth 
+dre:100073345        K11725 phospholysine phosphohistidine inorganic pyrophosphate phosphatase [EC:3.6.1.1 3.1.3.-] | (Re 
+dre:100330915        K02273 cytochrome c oxidase subunit 8 | (RefSeq) si:dkey-85n7.8; COX8 domain-containing protein 
+dre:100332034        K03959 NADH dehydrogenase (ubiquinone) 1 beta subcomplex subunit 3 | (RefSeq) ndufb3; NADH dehydroge 
+dre:100332691        K02154 V-type H+-transporting ATPase subunit a | (RefSeq) si:ch73-173p19.2; V-type proton ATPase 116 
+dre:100333064        K00419 ubiquinol-cytochrome c reductase subunit 9 | (RefSeq) uqcr10; cytochrome b-c1 complex subunit 
+dre:100333135        K00420 ubiquinol-cytochrome c reductase subunit 10 | (RefSeq) si:ch1073-325m22.2; cytochrome b-c1 co 
+dre:100535363        K02270 cytochrome c oxidase subunit 7a | (RefSeq) cox7a2b; cytochrome c oxidase subunit 7A2b 
+dre:100537318        K03944 NADH dehydrogenase (ubiquinone) flavoprotein 3 | (RefSeq) ndufv3; NADH dehydrogenase [ubiquin 
+dre:100538220        K02148 V-type H+-transporting ATPase subunit C | (RefSeq) atp6v1c2; V-type proton ATPase subunit C 1 
+dre:101884787        K03948 NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 4 | (RefSeq) ndufa4l2; NADH dehydr 
+dre:108179059        K02150 V-type H+-transporting ATPase subunit E | (RefSeq) atp6v1e1a; V-type proton ATPase subunit E  
+dre:140512           K00412 ubiquinol-cytochrome c reductase cytochrome b subunit | (RefSeq) CYTB; cytochrome b 
+dre:140519           K02126 F-type H+-transporting ATPase subunit a | (RefSeq) ATP6; ATP synthase F0 subunit 6 
+dre:140520           K02125 F-type H+-transporting ATPase subunit 8 | (RefSeq) ATP8; ATP synthase F0 subunit 8 
+dre:140531           K03878 NADH-ubiquinone oxidoreductase chain 1 [EC:7.1.1.2] | (RefSeq) ND1; NADH dehydrogenase subuni 
+dre:140532           K03879 NADH-ubiquinone oxidoreductase chain 2 [EC:7.1.1.2] | (RefSeq) ND2; NADH dehydrogenase subuni 
+dre:140533           K03880 NADH-ubiquinone oxidoreductase chain 3 [EC:7.1.1.2] | (RefSeq) ND3; NADH dehydrogenase subuni 
+dre:140534           K03881 NADH-ubiquinone oxidoreductase chain 4 [EC:7.1.1.2] | (RefSeq) ND4; NADH dehydrogenase subuni 
+dre:140535           K03883 NADH-ubiquinone oxidoreductase chain 5 [EC:7.1.1.2] | (RefSeq) ND5; NADH dehydrogenase subuni 
+dre:140536           K03884 NADH-ubiquinone oxidoreductase chain 6 [EC:7.1.1.2] | (RefSeq) ND6; NADH dehydrogenase subuni 
+dre:140538           K03882 NADH-ubiquinone oxidoreductase chain 4L [EC:7.1.1.2] | (RefSeq) ND4L; NADH dehydrogenase subu 
+dre:140539           K02256 cytochrome c oxidase subunit 1 [EC:7.1.1.9] | (RefSeq) COX1; cytochrome c oxidase subunit I 
+dre:140540           K02261 cytochrome c oxidase subunit 2 | (RefSeq) COX2; cytochrome c oxidase subunit II 
+dre:140541           K02262 cytochrome c oxidase subunit 3 | (RefSeq) COX3; cytochrome c oxidase subunit III 
+dre:192335           K02150 V-type H+-transporting ATPase subunit E | (RefSeq) atp6v1e1b; V-type proton ATPase subunit E  
+dre:192336           K02155 V-type H+-transporting ATPase 16kDa proteolipid subunit | (RefSeq) atp6v0ca; ATPase H+ transp 
+dre:195824           K03662 V-type H+-transporting ATPase S1 subunit | (RefSeq) atp6ap1b; V-type proton ATPase subunit S1 
+dre:286779           K02144 V-type H+-transporting ATPase subunit H | (RefSeq) atp6v1h; V-type proton ATPase subunit H is 
+dre:321724           K03661 V-type H+-transporting ATPase 21kDa proteolipid subunit | (RefSeq) atp6v0b; V-type proton ATP 
+dre:321951           K03954 NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 10 | (RefSeq) ndufa10; NADH dehydr 
+dre:322549           K00415 ubiquinol-cytochrome c reductase core subunit 2 | (RefSeq) uqcrc2b; cytochrome b-c1 complex s 
+dre:322811           K02146 V-type H+-transporting ATPase subunit d | (RefSeq) atp6v0d1; V-type proton ATPase subunit d 1 
+dre:324307           K02154 V-type H+-transporting ATPase subunit a | (RefSeq) atp6v0a1a; V-type proton ATPase 116 kDa su 
+dre:325402           K02155 V-type H+-transporting ATPase 16kDa proteolipid subunit | (RefSeq) atp6v0cb; ATPase H+ transp 
+dre:325712           K03955 NADH dehydrogenase (ubiquinone) 1 alpha/beta subcomplex 1, acyl-carrier protein | (RefSeq) nd 
+dre:326962           K02264 cytochrome c oxidase subunit 5a | (RefSeq) cox5ab; cytochrome c oxidase subunit 5Ab 
+dre:326975           K02263 cytochrome c oxidase subunit 4 | (RefSeq) cox4i1; cytochrome c oxidase subunit 4 isoform 1, m 
+dre:326977           K02140 F-type H+-transporting ATPase subunit g | (RefSeq) atp5l; ATP synthase subunit g, mitochondri 
+dre:335025           K02152 V-type H+-transporting ATPase subunit G | (RefSeq) atp6v1g1; V-type proton ATPase subunit G 1 
+dre:335191           K02137 F-type H+-transporting ATPase subunit O | (RefSeq) atp5po; ATP synthase subunit O, mitochondr 
+dre:335709           K02134 F-type H+-transporting ATPase subunit delta | (RefSeq) atp5f1d; ATP synthase subunit delta, m 
+dre:335751           K02270 cytochrome c oxidase subunit 7a | (RefSeq) cox7a2l; cytochrome c oxidase subunit 7A-related p 
+dre:335774           K02266 cytochrome c oxidase subunit 6a | (RefSeq) cox6a1; cytochrome c oxidase subunit 6A1, mitochon 
+dre:336118           K02272 cytochrome c oxidase subunit 7c | (RefSeq) cox7c; cytochrome c oxidase subunit 7C, mitochondr 
+dre:336957           K02136 F-type H+-transporting ATPase subunit gamma | (RefSeq) atp5f1c; ATP synthase subunit gamma, m 
+dre:337583           K02145 V-type H+-transporting ATPase subunit A [EC:7.1.2.2] | (RefSeq) atp6v1ab; V-type proton ATPas 
+dre:359839           K02147 V-type H+-transporting ATPase subunit B | (RefSeq) atp6v1ba; V-type proton ATPase subunit B,  
+dre:359840           K02147 V-type H+-transporting ATPase subunit B | (RefSeq) atp6v1b2; V-type proton ATPase subunit B,  
+dre:368907           K02148 V-type H+-transporting ATPase subunit C | (RefSeq) atp6v1c1a; V-type proton ATPase subunit C  
+dre:393478           K02267 cytochrome c oxidase subunit 6b | (RefSeq) cox6b2; cytochrome c oxidase subunit 6B2 
+dre:393497           K03956 NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 11 | (RefSeq) ndufa11; NADH dehydr 
+dre:393675           K02138 F-type H+-transporting ATPase subunit d | (RefSeq) atp5pd; ATP synthase subunit d, mitochondr 
+dre:393687           K11353 NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 13 | (RefSeq) ndufa13; NADH dehydr 
+dre:393700           K03952 NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 8 | (RefSeq) ndufa8; NADH dehydrog 
+dre:393703           K03966 NADH dehydrogenase (ubiquinone) 1 beta subcomplex subunit 10 | (RefSeq) ndufb10; NADH dehydro 
+dre:393706           K01507 inorganic pyrophosphatase [EC:3.6.1.1] | (RefSeq) ppa1a; inorganic pyrophosphatase 2, mitocho 
+dre:393720           K03943 NADH dehydrogenase (ubiquinone) flavoprotein 2 [EC:7.1.1.2] | (RefSeq) ndufv2; NADH dehydroge 
+dre:393764           K03958 NADH dehydrogenase (ubiquinone) 1 beta subcomplex subunit 2 | (RefSeq) ndufb2; NADH dehydroge 
+dre:393776           K02263 cytochrome c oxidase subunit 4 | (RefSeq) cox4i2; cytochrome c oxidase subunit 4 isoform 2, m 
+dre:393781           K03962 NADH dehydrogenase (ubiquinone) 1 beta subcomplex subunit 6 | (RefSeq) ndufb6; NADH dehydroge 
+dre:393793           K00414 ubiquinol-cytochrome c reductase core subunit 1 | (RefSeq) uqcrc1; cytochrome b-c1 complex su 
+dre:393821           K03963 NADH dehydrogenase (ubiquinone) 1 beta subcomplex subunit 7 | (RefSeq) ndufb7; NADH dehydroge 
+dre:393829           K03964 NADH dehydrogenase (ubiquinone) 1 beta subcomplex subunit 8 | (RefSeq) ndufb8; NADH dehydroge 
+dre:393884           K00234 succinate dehydrogenase (ubiquinone) flavoprotein subunit [EC:1.3.5.1] | (RefSeq) sdha; succi 
+dre:393935           K02149 V-type H+-transporting ATPase subunit D | (RefSeq) atp6v1d; V-type proton ATPase subunit D 
+dre:393943           K03950 NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 6 | (RefSeq) ndufa6; NADH dehydrog 
+dre:394110           K02145 V-type H+-transporting ATPase subunit A [EC:7.1.2.2] | (RefSeq) atp6v1aa; ATPase H+ transport 
+dre:394151           K02128 F-type H+-transporting ATPase subunit c | (RefSeq) atp5mc3a; ATP synthase membrane subunit c  
+dre:394181           K02259 heme a synthase [EC:1.17.99.9] | (RefSeq) cox15; cytochrome c oxidase assembly protein COX15  
+dre:402880           K02263 cytochrome c oxidase subunit 4 | (RefSeq) cox4i1l; cytochrome c oxidase subunit 4I1-like 
+dre:402883           K02130 F-type H+-transporting ATPase subunit f | (RefSeq) atp5mf; ATP synthase subunit f, mitochondr 
+dre:402961           K01507 inorganic pyrophosphatase [EC:3.6.1.1] | (RefSeq) ppa2; inorganic pyrophosphatase 2, mitochon 
+dre:406298           K03948 NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 4 | (RefSeq) ndufa4b; cytochrome c 
+dre:406301           K02128 F-type H+-transporting ATPase subunit c | (RefSeq) atp5mc1; ATP synthase F(0) complex subunit 
+dre:406306           K03960 NADH dehydrogenase (ubiquinone) 1 beta subcomplex subunit 4 | (RefSeq) ndufb4; NADH dehydroge 
+dre:406342           K02154 V-type H+-transporting ATPase subunit a | (RefSeq) tcirg1b; T cell immune regulator 1, ATPase 
+dre:406359           K00411 ubiquinol-cytochrome c reductase iron-sulfur subunit [EC:7.1.1.8] | (RefSeq) uqcrfs1; cytochr 
+dre:406413           K03941 NADH dehydrogenase (ubiquinone) Fe-S protein 8 [EC:7.1.1.2] | (RefSeq) ndufs8a; NADH:ubiquino 
+dre:406599           K02131 F-type H+-transporting ATPase subunit 6 | (RefSeq) atp5pf; ATP synthase-coupling factor 6, mi 
+dre:406726           K03948 NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 4 | (RefSeq) ndufa4a; cytochrome c 
+dre:415158           K08738 cytochrome c | (RefSeq) cycsb; cytochrome c 
+dre:415243           K03945 NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 1 | (RefSeq) ndufa1; NADH dehydrog 
+dre:415253           K02265 cytochrome c oxidase subunit 5b | (RefSeq) cox5ba; uncharacterized protein LOC415253 
+dre:436762           K00237 succinate dehydrogenase (ubiquinone) membrane anchor subunit | (RefSeq) sdhda; succinate dehy 
+dre:436768           K00418 ubiquinol-cytochrome c reductase subunit 8 | (RefSeq) uqcrq; cytochrome b-c1 complex subunit  
+dre:436799           K02151 V-type H+-transporting ATPase subunit F | (RefSeq) atp6v1f; V-type proton ATPase subunit F 
+dre:436930           K00415 ubiquinol-cytochrome c reductase core subunit 2 | (RefSeq) uqcrc2a; ubiquinol-cytochrome c re 
+dre:436968           K02267 cytochrome c oxidase subunit 6b | (RefSeq) cox6b1; cytochrome c oxidase subunit 6B1 
+dre:445042           K03951 NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 7 | (RefSeq) ndufa7; NADH dehydrog 
+dre:445122           K03947 NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 3 | (RefSeq) ndufa3; NADH dehydrog 
+dre:445129           K00236 succinate dehydrogenase (ubiquinone) cytochrome b560 subunit | (RefSeq) sdhc; succinate dehyd 
+dre:445291           K03942 NADH dehydrogenase (ubiquinone) flavoprotein 1 [EC:7.1.1.2] | (RefSeq) ndufv1; NADH dehydroge 
+dre:445500           K00237 succinate dehydrogenase (ubiquinone) membrane anchor subunit | (RefSeq) sdhdb; succinate dehy 
+dre:447913           K03939 NADH dehydrogenase (ubiquinone) Fe-S protein 6 | (RefSeq) ndufs6; NADH dehydrogenase [ubiquin 
+dre:447914           K02260 cytochrome c oxidase assembly protein subunit 17 | (RefSeq) cox17; cytochrome c oxidase coppe 
+dre:447942           K02266 cytochrome c oxidase subunit 6a | (RefSeq) cox6a2; cytochrome c oxidase subunit 6A2, mitochon 
+dre:449655           K02148 V-type H+-transporting ATPase subunit C | (RefSeq) atp6v1c1b; V-type proton ATPase subunit C  
+dre:449787           K02127 F-type H+-transporting ATPase subunit b | (RefSeq) atp5pb; ATP synthase F(0) complex subunit  
+dre:450017           K02153 V-type H+-transporting ATPase subunit e | (RefSeq) atp6v0e1; V-type proton ATPase subunit e 1 
+dre:493605           K03934 NADH dehydrogenase (ubiquinone) Fe-S protein 1 [EC:7.1.1.2] | (RefSeq) ndufs1; NADH-ubiquinon 
+dre:494577           K02268 cytochrome c oxidase subunit 6c | (RefSeq) cox6c; cytochrome c oxidase subunit 6C 
+dre:541328           K03949 NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 5 | (RefSeq) ndufa5; NADH dehydrog 
+dre:541331           K03953 NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 9 | (RefSeq) ndufa9a; NADH dehydro 
+dre:541390           K03968 NADH dehydrogenase (ubiquinone) 1 subunit C2 | (RefSeq) ndufc2; NADH dehydrogenase [ubiquinon 
+dre:550451           K03936 NADH dehydrogenase (ubiquinone) Fe-S protein 3 [EC:7.1.1.2] | (RefSeq) ndufs3; NADH dehydroge 
+dre:550531           K01507 inorganic pyrophosphatase [EC:3.6.1.1] | (RefSeq) ppa1b; inorganic pyrophosphatase 
+dre:553384           K02257 heme o synthase [EC:2.5.1.141] | (RefSeq) cox10; protoheme IX farnesyltransferase, mitochondr 
+dre:553660           K03938 NADH dehydrogenase (ubiquinone) Fe-S protein 5 | (RefSeq) ndufs5; NADH dehydrogenase [ubiquin 
+dre:553672           K03935 NADH dehydrogenase (ubiquinone) Fe-S protein 2 [EC:7.1.1.2] | (RefSeq) ndufs2; NADH dehydroge 
+dre:553691           K02154 V-type H+-transporting ATPase subunit a | (RefSeq) atp6v0a1b; V-type proton ATPase 116 kDa su 
+dre:553755           K02132 F-type H+-transporting ATPase subunit alpha | (RefSeq) atp5fa1; ATP synthase subunit alpha, m 
+dre:553767           K02153 V-type H+-transporting ATPase subunit e | (RefSeq) atpv0e2; ATPase H+ transporting V0 subunit 
+dre:554100           K03941 NADH dehydrogenase (ubiquinone) Fe-S protein 8 [EC:7.1.1.2] | (RefSeq) ndufs8b; NADH:ubiquino 
+dre:554101           K02264 cytochrome c oxidase subunit 5a | (RefSeq) cox5aa; cytochrome c oxidase subunit 5Aa 
+dre:554103           K02270 cytochrome c oxidase subunit 7a | (RefSeq) cox7a2a; cytochrome c oxidase subunit 7A2a 
+dre:554125           K03946 NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 2 | (RefSeq) ndufa2; NADH dehydrog 
+dre:554135           K02133 F-type H+-transporting ATPase subunit beta [EC:7.1.2.2] | (RefSeq) atp5f1b; ATP synthase subu 
+dre:554154           K00417 ubiquinol-cytochrome c reductase subunit 7 | (RefSeq) uqcrb; cytochrome b-c1 complex subunit  
+dre:556538           K11352 NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 12 | (RefSeq) ndufa12; NADH dehydr 
+dre:557348           K02273 cytochrome c oxidase subunit 8 | (RefSeq) cox8a; cytochrome c oxidase subunit 8A, mitochondri 
+dre:559659           K02129 F-type H+-transporting ATPase subunit e | (RefSeq) atp5mea; ATP synthase membrane subunit ea 
+dre:561117           K02154 V-type H+-transporting ATPase subunit a | (RefSeq) atp6v0a2b; V-type proton ATPase 116 kDa su 
+dre:561469           K02154 V-type H+-transporting ATPase subunit a | (RefSeq) atp6v0a2a; V-type proton ATPase 116 kDa su 
+dre:562149           K00235 succinate dehydrogenase (ubiquinone) iron-sulfur subunit [EC:1.3.5.1] | (RefSeq) sdhb; succin 
+dre:562219           K11351 NADH dehydrogenase (ubiquinone) 1 beta subcomplex subunit 11 | (RefSeq) ndufb11; NADH dehydro 
+dre:563476           K02271 cytochrome c oxidase subunit 7b | (RefSeq) cox7b; cytochrome c oxidase subunit 7B, mitochondr 
+dre:564379           K00413 ubiquinol-cytochrome c reductase cytochrome c1 subunit | (RefSeq) cyc1; cytochrome c1, heme p 
+dre:566723           K00416 ubiquinol-cytochrome c reductase subunit 6 | (RefSeq) uqcrh; cytochrome b-c1 complex subunit  
+dre:569770           K02273 cytochrome c oxidase subunit 8 | (RefSeq) cox8b; cytochrome c oxidase subunit 8B 
+dre:573021           K03965 NADH dehydrogenase (ubiquinone) 1 beta subcomplex subunit 9 | (RefSeq) ndufb9; NADH dehydroge 
+dre:573619           K03955 NADH dehydrogenase (ubiquinone) 1 alpha/beta subcomplex 1, acyl-carrier protein | (RefSeq) nd 
+dre:573689           K03937 NADH dehydrogenase (ubiquinone) Fe-S protein 4 | (RefSeq) ndufs4; NADH dehydrogenase [ubiquin 
+dre:641476           K03935 NADH dehydrogenase (ubiquinone) Fe-S protein 2 [EC:7.1.1.2] | (RefSeq) zgc:123301; uncharacte 
+dre:641566           K03942 NADH dehydrogenase (ubiquinone) flavoprotein 1 [EC:7.1.1.2] | (RefSeq) zgc:123290; NADH-quino 
+dre:751638           K02265 cytochrome c oxidase subunit 5b | (RefSeq) cox5b2; cytochrome c oxidase subunit 5B2 
+dre:767664           K02270 cytochrome c oxidase subunit 7a | (RefSeq) cox7a1; cytochrome c oxidase subunit 7A1, mitochon 
+dre:767750           K02129 F-type H+-transporting ATPase subunit e | (RefSeq) atp5meb; ATP synthase membrane subunit eb 
+dre:796997           K03940 NADH dehydrogenase (ubiquinone) Fe-S protein 7 [EC:7.1.1.2] | (RefSeq) ndufs7; NADH dehydroge 
+dre:797063           K03961 NADH dehydrogenase (ubiquinone) 1 beta subcomplex subunit 5 | (RefSeq) ndufb5; NADH dehydroge 
+dre:798291           K02135 F-type H+-transporting ATPase subunit epsilon | (RefSeq) atp5f1e; ATP synthase subunit epsilo 
+dre:81541            K02128 F-type H+-transporting ATPase subunit c | (RefSeq) atp5mc3b; ATP synthase membrane subunit c  
